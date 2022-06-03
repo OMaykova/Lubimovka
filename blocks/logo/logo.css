@@ -1,0 +1,8 @@
+.logo {
+  display: block;
+  background-image: url(../../images/logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 43px;
+  min-height: 35px;
+}
