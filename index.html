@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
   <link rel="stylesheet" href="./pages/index.css">
   <title>Любимовка</title>
 </head>
@@ -12,10 +16,43 @@
 <body class="body">
   <div class="page body__page">
 
-
+    <section class="reviews">
+      <div class="swiper reviews-slider">
+        <div class="swiper__header">
+          <h2 class="swiper__title">Отзывы зрителей</h2>
+          <div class="swiper__nav">
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide reviews__slide">
+            <p class="reviews__text">Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка возникает — я думаю, и пьеса написана с этой интонацией американских взрослых мультсериалов.
+              И как хорошо все это с куклой-носочком. Так все чисто сделано!</p>
+            <p class="reviews__author">Наталья Зайцева</p>
+          </div>
+          <div class="swiper-slide reviews__slide">
+            <p class="reviews__text">Для самой этой истории формат читки работает отличным ироническим отстранением</p>
+            <p class="reviews__author">Дина Годер</p>
+          </div>
+          <div class="swiper-slide reviews__slide">
+            <p class="reviews__text">Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно,
+              ведь я как будто сама поучаствовала в спектакле</p>
+            <p class="reviews__author">Дарья Морозова</p>
+          </div>
+          <div class="swiper-slide reviews__slide">
+            <p class="reviews__text">************** ***************** ********* ** ************ **** **** *******</p>
+            <p class="reviews__author">****** ****</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </div>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
   <script type="module" src="./scripts/index.js"></script>
+
 </body>
 
 </html>

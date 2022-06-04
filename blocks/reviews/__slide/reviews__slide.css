@@ -1,0 +1,9 @@
+.reviews__slide {
+  width: 420px;
+  height: 361px;
+  background-color: #FFFFFF;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
