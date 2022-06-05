@@ -1,0 +1,18 @@
+.slider-button-next {
+  width: 50px;
+  height: 25px;
+  border-radius: 50px 50px 0 0;
+  border-top: 1px solid #242424;
+  border-left: 1px solid #242424;
+  border-right: 1px solid #242424;
+  transform: rotate(90deg);
+  position: relative;
+  margin-left: 71px;
+}
+.slider-button-next::after {
+  content: url(../../images/arrow-right.svg);
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 10px;
+  right: 1px;
+}

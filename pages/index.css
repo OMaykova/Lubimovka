@@ -13,3 +13,7 @@
 @import url(../blocks/swiper/__header/swiper__header.css);
 @import url(../blocks/swiper/__nav/swiper__nav.css);
 @import url(../blocks/swiper/__title/swiper__title.css);
+@import url(../blocks/swiper-pagination-bullet/swiper-pagination-bullet.css);
+@import url(../blocks/reviews-slider/reviews-slider.css);
+@import url(../blocks/slider-button-prev/slider-button-prev.css);
+@import url(../blocks/slider-button-next/slider-button-next.css);

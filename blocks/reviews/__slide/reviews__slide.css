@@ -1,4 +1,5 @@
 .reviews__slide {
+  box-sizing: border-box;
   width: 420px;
   height: 361px;
   background-color: #FFFFFF;
