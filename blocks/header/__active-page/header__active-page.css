@@ -1,0 +1,33 @@
+.header__active-page {
+  position: absolute;
+  top: 94px;
+  left: 30px;
+  text-transform: uppercase;
+  color: #242424;
+  text-decoration: none;
+  border-right: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  padding: 9px 0 9px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header__active-page-icon {
+  display: inline-block;
+  background-image: url(../../../images/Union.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 9px;
+  width: 21px;
+  height: 13px;
+}
+
+
+.header__active-page:hover {
+  color: #e5e5e5;
+  background-color: #242424;
+}
+
+.header__active-page-icon:hover {
+  background-color: #e5e5e5;
+}
