@@ -1,0 +1,7 @@
+.menu__separator {
+  width: 1px;
+  background-color: #242424;
+  height: 50px;
+  align-self: end;
+  margin-top: 11px;
+}

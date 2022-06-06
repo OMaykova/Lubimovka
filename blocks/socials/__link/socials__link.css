@@ -1,0 +1,13 @@
+.socials__link {
+  text-decoration: none;
+  white-space: nowrap;
+  color: #242424;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: lowercase;
+}
+
+.socials__link:hover {
+  border-bottom: 1px solid #242424;
+}

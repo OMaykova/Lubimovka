@@ -4,4 +4,5 @@
   align-items: center;
   box-sizing: border-box;
   border-bottom: 1px solid #242424;
+  overflow: hidden;
 }
