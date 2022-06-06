@@ -1,0 +1,16 @@
+.navigation__link {
+  text-decoration: none;
+  white-space: nowrap;
+  color: #242424;
+  padding: 0 10px ;
+
+  border-left: 1px solid #242424;
+  border-right: 1px solid #242424;
+  border-radius: 9999px;
+  box-sizing: border-box;
+}
+
+.navigation__link:hover {
+  border-left: 1px solid #242424;
+  border-right: 1px solid #242424;
+}
