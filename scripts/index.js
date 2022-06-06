@@ -10,10 +10,8 @@ const swiper = new Swiper('.swiper'
 
   // Navigation arrows
   navigation: {
-    nextEl: '.swiper-button-next',
+    nextEl: '.slider-button-next',
     prevEl: '.slider-button-prev',
-    // nextEl: value.nextElementSibling.nextElementSibling,
-    // prevEl: value.nextElementSibling,
   },
   keyboard: {
     enabled: true,

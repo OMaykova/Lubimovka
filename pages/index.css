@@ -17,3 +17,5 @@
 @import url(../blocks/reviews-slider/reviews-slider.css);
 @import url(../blocks/slider-button-prev/slider-button-prev.css);
 @import url(../blocks/slider-button-next/slider-button-next.css);
+@import url(../blocks/slider-pagination/slider-pagination.css);
+@import url(../blocks/swiper-wrapper/swiper-wrapper.css);
