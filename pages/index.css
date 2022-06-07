@@ -5,3 +5,11 @@
 @import url(../blocks/body/__page/body__page.css);
 
 @import url(../blocks/page/page.css);
+
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__image/footer__image.css);
+@import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__partners-logos/footer__partners-logos.css);
+@import url(../blocks/footer/__partners-logo/footer__partners-logo.css);
