@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Любимовка</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Любимовка</title>
-</head>
-
-<body class="body">
-  <main class="page body__page">
-
-<section class="card"></section>
-
-  </main>
-  <script type="module" src="./scripts/index.js"></script>
-</body>
-
+  <body class="body">
+    <main class="page body__page">
+      <section class="card">
+        <div class="card__title">
+          <h3 class="card__text">
+            С_училища
+          </h3>
+          <a
+            href=""
+            class="card__button card__button_download card__button_hover"
+          >
+            <span class="card__button card__button_download-span"></span>
+          </a>
+          <a
+            href=""
+            class="card__button card__button_look card__button_hover"
+          >
+            <span class="card__button card__button_look-span"></span>
+          </a>
+        </div>
+        <p class="card__author">
+          <span class="card__author-name">Андрей&ensp;</span>
+          <span class="card__author-name">Иванов</span>
+        </p>
+        <p class="card__location">Санкт-Петербург 2020</p>
+      </section>
+    </main>
+    <script type="module" src="./scripts/index.js"></script>
+  </body>
 </html>
