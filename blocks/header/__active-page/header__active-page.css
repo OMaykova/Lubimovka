@@ -1,3 +1,9 @@
+@keyframes gradient {
+  100% {
+    background-position: -100% 50%;
+  }
+}
+
 .header__active-page {
   position: absolute;
   top: 94px;
@@ -10,24 +16,27 @@
   padding: 9px 0 9px 10px;
   display: flex;
   align-items: center;
+  background: linear-gradient(to right, transparent 50%, #242424 50%);
+  background-position: 0% 50%;
+  background-size: 200%;
 }
 
 .header__active-page-icon {
   display: inline-block;
-  background-image: url(../../../images/Union.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
   margin-left: 9px;
   width: 21px;
   height: 13px;
+  -webkit-mask-image: url(../../../images/Union.svg);
+  mask-image: url(../../../images/Union.svg);
+  background-color: #242424;
 }
 
 
 .header__active-page:hover {
   color: #e5e5e5;
-  background-color: #242424;
+  animation: gradient 1s alternate;
 }
 
-.header__active-page-icon:hover {
+.header__active-page:hover .header__active-page-icon {
   background-color: #e5e5e5;
 }
