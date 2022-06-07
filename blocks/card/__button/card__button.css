@@ -9,10 +9,3 @@
   background-size: 200px 50px;
 }
 
-@media screen and (max-width: 525px) {
-  .card__button {
-    height: 56px;
-    border-top: 1px solid #242424;
-    width: 244px;
-  }
-}

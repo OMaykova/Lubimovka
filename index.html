@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <title>Любимовка</title>
   </head>
 
@@ -34,7 +38,19 @@
         </p>
         <p class="card__location">Санкт-Петербург 2020</p>
       </section>
+      <section class="photo">
+        <h2 class="photo__title">Заголовок блока с фотографиями</h2>
+        <div class="swiper mySwiper photo__swiper">
+          <div class="photo__swiper-wrapper swiper-wrapper">
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <template class="photo-template">
+          <img src="" class="photo__swiper-slide swiper-slide" alt=""/>
+        </template>
+      </section>
     </main>
     <script type="module" src="./scripts/index.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>
