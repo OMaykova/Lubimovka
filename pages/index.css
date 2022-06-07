@@ -6,10 +6,11 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/btn/btn.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
-@import url(../blocks/header/__active-page/header__active-page.css);
+@import url(../blocks/header/__previous-btn/header__previous-btn.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__separator/menu__separator.css);
@@ -23,4 +24,3 @@
 @import url(../blocks/socials/__item/socials__item.css);
 @import url(../blocks/socials/__link/socials__link.css);
 @import url(../blocks/support/support.css);
-@import url(../blocks/support/__icon/support__icon.css);

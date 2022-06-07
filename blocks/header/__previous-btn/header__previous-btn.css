@@ -1,0 +1,8 @@
+.header__previous-btn {
+  position: absolute;
+  top: 94px;
+  left: 30px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+}
