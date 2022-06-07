@@ -1,16 +1,13 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
-
 @import url(../blocks/body/body.css);
 @import url(../blocks/body/__page/body__page.css);
-
 @import url(../blocks/page/page.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__author-name/card__author-name.css);
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__button/_download/card__button_download.css);
 @import url(../blocks/card/__button/_look/card__button_look.css);
-@import url(../blocks/card/_play-cover/card_play-cover.css);
 @import url(../blocks/card/__button/_download-span/card__button_download-span.css);
 @import url(../blocks/card/__button/_look-span/card__button_look-span.css);
 @import url(../blocks/card/__button/_hover/card__button_hover.css);
@@ -18,7 +15,6 @@
 @import url(../blocks/card/__author/card__author.css);
 @import url(../blocks/card/__location/card__location.css);
 @import url(../blocks/card/__text/card__text.css);
-@import url(../blocks/card/__img/card__img.css);
 @import url(../blocks/card/__look/card__look.css);
 @import url(../blocks/photo/__swiper/photo__swiper.css);
 @import url(../blocks/photo/__swiper-slide/photo__swiper-slide.css);
