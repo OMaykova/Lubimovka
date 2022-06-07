@@ -10,15 +10,8 @@
   align-items: center;
 }
 
-.navigation__link:hover .navigation__ellipse_left {
-  opacity: 1;
-}
-
-.navigation__link:hover .navigation__ellipse_right {
-  opacity: 1;
-}
-
-.navigation__ellipse_left {
+.navigation__link::before {
+  content: '';
   display: inline-block;
   background-image: url(../../../images/ellipse.svg);
   background-repeat: no-repeat;
@@ -28,7 +21,8 @@
   opacity: 0;
 }
 
-.navigation__ellipse_right {
+.navigation__link::after {
+  content: '';
   display: inline-block;
   background-image: url(../../../images/ellipse.svg);
   background-repeat: no-repeat;
@@ -37,4 +31,12 @@
   height: 24px;
   transform: rotate(180deg);
   opacity: 0;
+}
+
+.navigation__link:hover::before {
+  opacity: 1;
+}
+
+.navigation__link:hover::after {
+  opacity: 1;
 }

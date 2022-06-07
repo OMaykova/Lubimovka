@@ -18,9 +18,7 @@
 @import url(../blocks/menu/__socials/menu__socials.css);
 @import url(../blocks/menu/__support/menu__support.css);
 @import url(../blocks/navigation/navigation.css);
-@import url(../blocks/navigation/__item/navigation__item.css);
 @import url(../blocks/navigation/__link/navigation__link.css);
 @import url(../blocks/socials/socials.css);
-@import url(../blocks/socials/__item/socials__item.css);
 @import url(../blocks/socials/__link/socials__link.css);
 @import url(../blocks/support/support.css);
