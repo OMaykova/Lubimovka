@@ -6,6 +6,7 @@
   box-sizing: border-box;
   border: 1px solid #000000;
   text-transform: uppercase;
+  text-decoration: none;
   transition: color 0.5s;
   z-index: 10;
 }
