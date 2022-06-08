@@ -5,3 +5,12 @@
 @import url(../blocks/body/__page/body__page.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/headline/headline.css);
+@import url(../blocks/headline/_level/headline_level_1.css);
+@import url(../blocks/headline/_level/headline_level_6.css);
+@import url(../blocks/headline/_level/headline_level_7.css);
+
+@import url(../blocks/text/text.css);
+@import url(../blocks/text/_size/text_size_small.css);
+@import url(../blocks/text/_size/text_size_large.css);
