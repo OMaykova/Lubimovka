@@ -1,0 +1,5 @@
+.performance__tickets {
+  padding: 0 0 8% 17%;
+  grid-area: tickets;
+  align-self: flex-end;
+}

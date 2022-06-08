@@ -1,0 +1,12 @@
+.performance__paragraph {
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+
+.performance__paragraph:not(:first-of-type) {
+  text-indent: 60px;
+}
+
+.performance__paragraph:last-of-type {
+  margin-bottom: 0;
+}

@@ -1,0 +1,5 @@
+.performance__header {
+  padding: 8% 8% 5% 17%;
+  max-width: 540px;
+  grid-area: header;
+}

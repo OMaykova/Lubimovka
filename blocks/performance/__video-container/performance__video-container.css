@@ -1,0 +1,7 @@
+.performance__video-container {
+  width: 96%;
+  height: 0;
+  padding-bottom: 54%;
+  position: relative;
+  grid-area: video;
+}

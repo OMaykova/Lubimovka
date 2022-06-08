@@ -1,0 +1,15 @@
+.performance {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: auto auto 1fr;
+  grid-template-areas:
+  "header      image"
+  "description image"
+  "tickets     image"
+  ".           history"
+  "info        video"
+  "info        about"
+  ;
+  justify-items: flex-start;
+}

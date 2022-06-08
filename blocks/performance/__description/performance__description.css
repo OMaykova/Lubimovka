@@ -1,0 +1,5 @@
+.performance__description {
+  padding: 0 0 0 25%;
+  max-width: 400px;
+  grid-area: description;
+}

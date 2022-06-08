@@ -14,3 +14,22 @@
 @import url(../blocks/text/text.css);
 @import url(../blocks/text/_size/text_size_small.css);
 @import url(../blocks/text/_size/text_size_large.css);
+
+@import url(../blocks/performance/performance.css);
+@import url(../blocks/performance/__header/performance__header.css);
+@import url(../blocks/performance/__description/performance__description.css);
+@import url(../blocks/performance/__tickets/performance__tickets.css);
+@import url(../blocks/performance/__tickets-date/performance__tickets-date.css);
+@import url(../blocks/performance/__tickets-btn/performance__tickets-btn.css);
+@import url(../blocks/performance/__image/performance__image.css);
+@import url(../blocks/performance/__history/performance__history.css);
+@import url(../blocks/performance/__info/performance__info.css);
+@import url(../blocks/performance/__details/performance__details.css);
+@import url(../blocks/performance/__details-item/performance__details-item.css);
+@import url(../blocks/performance/__participants/performance__participants.css);
+@import url(../blocks/performance/__participants-item/performance__participants-item.css);
+@import url(../blocks/performance/__participant/performance__participant.css);
+@import url(../blocks/performance/__video-container/performance__video-container.css);
+@import url(../blocks/performance/__video/performance__video.css);
+@import url(../blocks/performance/__about/performance__about.css);
+@import url(../blocks/performance/__paragraph/performance__paragraph.css);
