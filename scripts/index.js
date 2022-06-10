@@ -8,7 +8,6 @@ const swiperPhoto = new Swiper(".mySwiper", {
   spaceBetween: 1,
 });
 
-console.log(initialPhotos)
 const elementContainer = document.querySelector(".photo__swiper-wrapper");
 
 initialPhotos.forEach((el) => {
