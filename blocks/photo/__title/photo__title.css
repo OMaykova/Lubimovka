@@ -1,0 +1,10 @@
+.photo__title {
+    font-family: "Neue Machina", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+    font-size: 40px;
+    line-height: 40px;
+    max-width: 568px;
+    margin: 144px 35.4% 40px 25.1%;
+}
