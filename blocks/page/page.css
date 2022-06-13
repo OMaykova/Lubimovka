@@ -1,4 +1,5 @@
 .page {
+  margin: 0 auto;
   min-width: 320px;
   width: 100%;
   max-width: 1440px;
@@ -10,6 +11,7 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   display: flex;
+  background-color:#ECEBE8;
   flex-direction: column;
   justify-content: center;
   font-family: "Neue Machina", "Formular", Arial, sans-serif;

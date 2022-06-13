@@ -1,0 +1,9 @@
+.card__button {
+  display: block;
+  width: 240px;
+  height: 0px;
+  border: none;
+  background-repeat: no-repeat;
+  background-size: 200px 50px;
+}
+
