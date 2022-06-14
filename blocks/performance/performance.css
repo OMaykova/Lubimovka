@@ -1,5 +1,5 @@
 .performance {
-  padding: 30px 0;
+  padding: 30px 0 0;
   display: grid;
   grid-template-columns: repeat(2, 50%);
   grid-template-rows: auto auto 1fr;
@@ -10,6 +10,25 @@
   ".           history"
   "info        video"
   "info        about"
+  ".           card"
   ;
   justify-items: flex-start;
+}
+
+@media (max-width: 768px) {
+  .performance {
+    padding: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: initial;
+    grid-template-areas:
+    "header"
+    "description"
+    "tickets"
+    "image"
+    "history"
+    "info"
+    "video"
+    "about"
+    "card";
+  }
 }

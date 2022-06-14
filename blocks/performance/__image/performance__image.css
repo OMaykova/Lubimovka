@@ -4,3 +4,9 @@
   object-position: center;
   grid-area: image;
 }
+
+@media (max-width: 576px) {
+  .performance__image {
+    height: 109vw;
+  }
+}

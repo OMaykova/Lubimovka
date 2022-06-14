@@ -1,6 +1,7 @@
 .performance__paragraph {
   margin: 0 0 16px 0;
   padding: 0;
+  word-wrap: break-word;
 }
 
 .performance__paragraph:not(:first-of-type) {

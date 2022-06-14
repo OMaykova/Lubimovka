@@ -32,8 +32,8 @@
 @import url(../blocks/performance/__video/performance__video.css);
 @import url(../blocks/performance/__about/performance__about.css);
 @import url(../blocks/performance/__paragraph/performance__paragraph.css);
+@import url(../blocks/performance/__card/performance__card.css);
 
-@import url(../blocks/card/card.css);
 @import url(../blocks/card/__author-name/card__author-name.css);
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__button/_download/card__button_download.css);

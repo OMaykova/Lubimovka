@@ -3,3 +3,17 @@
   max-width: 592px;
   grid-area: history;
 }
+
+@media (max-width: 992px) {
+  .performance__history {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 768px) {
+  .performance__history {
+    padding: 56px 6% 100px;
+    max-width: 100%;
+  }
+}

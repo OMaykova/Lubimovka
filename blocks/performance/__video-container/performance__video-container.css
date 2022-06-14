@@ -5,3 +5,12 @@
   position: relative;
   grid-area: video;
 }
+
+@media (max-width: 768px) {
+  .performance__video-container {
+    margin: 24px 0;
+    width: 88%;
+    padding-bottom: 50%;
+    justify-self: center;
+  }
+}

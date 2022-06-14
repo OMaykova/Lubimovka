@@ -3,3 +3,21 @@
   grid-area: tickets;
   align-self: flex-end;
 }
+
+@media (max-width: 992px) {
+  .performance__tickets {
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .performance__tickets {
+    padding: 8% 6% 9% 21%;
+  }
+}
+
+@media (max-width: 396px) {
+  .performance__tickets {
+    padding-left: 18%;
+  }
+}

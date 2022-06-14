@@ -2,3 +2,11 @@
   padding: 0 8% 0 25%;
   grid-area: info;
 }
+
+@media (max-width: 768px) {
+  .performance__info {
+    padding: 58px 6% 72px;
+    justify-self: stretch;
+    background-color: #FFFFFF;
+  }
+}
