@@ -5,7 +5,7 @@
 @import url(../blocks/body/__page/body__page.css);
 
 @import url(../blocks/page/page.css);
-
+/* reviews-slider */
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__author/reviews__author.css);
 @import url(../blocks/reviews/__slide/reviews__slide.css);
@@ -19,3 +19,4 @@
 @import url(../blocks/slider-button-next/slider-button-next.css);
 @import url(../blocks/slider-pagination/slider-pagination.css);
 @import url(../blocks/swiper-wrapper/swiper-wrapper.css);
+/* reviews-slider */

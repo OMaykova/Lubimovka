@@ -8,3 +8,8 @@
   letter-spacing: -0.01em;
   color: #242424;
 }
+@media screen and (max-width: 420px) {
+  .reviews__author {
+    margin-top: 56px;
+  }
+}

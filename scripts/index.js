@@ -20,10 +20,16 @@ const swiper = new Swiper('.swiper'
 
   watchOverflow: true,
   spaceBetween: 30,
-  // breakpoints: {
-  //   320: {
-  //     slidesPerView:1
-  //   }
-  // },
+  breakpoints: {
+    320: {
+      slidesPerView: 1
+    },
+    768: {
+      slidesPerView: 2
+    },
+    1440: {
+      slidesPerView: 3
+    }
+  },
 
 });
