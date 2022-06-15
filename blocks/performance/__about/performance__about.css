@@ -1,0 +1,27 @@
+.performance__about {
+  padding: 66px 0 80px;
+  max-width: 612px;
+  box-sizing: border-box;
+  grid-area: about;
+}
+
+@media (max-width: 1200px) {
+  .performance__about {
+    padding-top: 42px;
+    max-width: 492px;
+  }
+}
+
+@media (max-width: 992px) {
+  .performance__about {
+    padding-top: 24px;
+    max-width: 384px;
+  }
+}
+
+@media (max-width: 768px) {
+  .performance__about {
+    padding: 8px 6% 100px;
+    max-width: 100%;
+  }
+}

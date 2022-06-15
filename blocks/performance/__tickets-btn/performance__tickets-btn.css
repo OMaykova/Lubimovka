@@ -1,0 +1,59 @@
+.performance__tickets-btn {
+  display: block;
+  position: relative;
+  padding: 16px 16px 18px;
+  min-width: 240px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.5s;
+  z-index: 10;
+}
+
+.performance__tickets-btn::before {
+  content: "";
+  position: absolute;
+  background-image: linear-gradient(#242424, #242424);
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  transition: background-size 0.5s;
+  z-index: -1;
+}
+
+.performance__tickets-btn::after {
+  content: "";
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 25px;
+  height: 25px;
+  background-image: url(../../../images/arrow-right.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: filter 0.3s;
+  transition-delay: 0.3s;
+  z-index: 10;
+}
+
+.performance__tickets-btn:hover {
+  color: #ecebe8;
+}
+
+.performance__tickets-btn:hover::before {
+  background-size: 100% 100%;
+}
+
+.performance__tickets-btn:hover::after {
+  filter: invert(100%);
+}
+
+.performance__tickets-btn:active::before  {
+  transform: scale(1.15, 1.2);
+}
