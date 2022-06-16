@@ -1,0 +1,13 @@
+.footer__logo {
+  margin: 42px 5px 0 auto;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 93px;
+  height: 80px;
+}
+
+@media (max-width: 1170px) {
+  .footer__logo {
+    margin-left: 20px;
+  }
+}

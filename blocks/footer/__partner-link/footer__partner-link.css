@@ -1,0 +1,7 @@
+.footer__partner-link {
+  margin: 0 3% 0 0;
+}
+
+.footer__partner-link:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,9 @@
+.footer__copyright-link {
+  text-decoration: none;
+  font-family: 'Formular', ‘Arial’, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #242424;
+}

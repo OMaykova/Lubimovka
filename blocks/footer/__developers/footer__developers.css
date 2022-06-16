@@ -1,0 +1,26 @@
+.footer__developers {
+  grid-column: 5/6;
+  grid-row: 3/4;
+  text-decoration: none;
+  font-family: 'Formular', ‘Arial’, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #242424;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 1170px) {
+  .footer__developers {
+    grid-row: 4/5;
+    grid-column: 4/5;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer__developers {
+    grid-row: 5/6;
+    grid-column: 3/4;
+  }
+}

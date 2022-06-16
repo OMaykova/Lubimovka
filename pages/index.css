@@ -6,10 +6,25 @@
 
 @import url(../blocks/page/page.css);
 
-
+/* footer */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__image/footer__image.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__partner-link/footer__partner-link.css);
+@import url(../blocks/footer/__partner-logo/footer__partner-logo.css);
+@import url(../blocks/footer/__partners-title/footer__partners-title.css);
 @import url(../blocks/footer/__partners/footer__partners.css);
-@import url(../blocks/footer/__text/footer__text.css);
-@import url(../blocks/footer/__partners-logos/footer__partners-logos.css);
-@import url(../blocks/footer/__partners-logo/footer__partners-logo.css);
+@import url(../blocks/footer/__nav-first-list/footer__nav-first-list.css);
+@import url(../blocks/footer/__nav-item/footer__nav-item.css);
+@import url(../blocks/footer/__nav-link/footer__nav-link.css);
+@import url(../blocks/footer/__nav-second-list/footer__nav-second-list.css);
+@import url(../blocks/footer/__nav-third-list/footer__nav-third-list.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-link/footer__copyright-link.css);
+@import url(../blocks/footer/__design/footer__design.css);
+@import url(../blocks/footer/__design-link/footer__design-link.css);
+@import url(../blocks/footer/__design-logo/footer__design-logo.css);
+@import url(../blocks/footer/__developers/footer__developers.css);
+@import url(../blocks/footer/__address/footer__address.css);
+@import url(../blocks/footer/__addres-title/footer__address-title.css);
+@import url(../blocks/footer/__address-sibtitle/footer__address-subtitle.css);
+@import url(../blocks/footer/__copyright-title/footer__copyright-title.css);

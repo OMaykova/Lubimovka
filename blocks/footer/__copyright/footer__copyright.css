@@ -1,0 +1,20 @@
+.footer__copyright {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  display: flex;
+}
+
+@media (max-width: 1170px) {
+  .footer__copyright {
+    grid-row: 4/5;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer__copyright {
+    grid-column: 2/4;
+    flex-direction: row;
+  }
+}

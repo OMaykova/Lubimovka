@@ -1,0 +1,12 @@
+.footer__address {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 850px) {
+  .footer__address {
+    grid-column: 2/4;
+  }
+}
