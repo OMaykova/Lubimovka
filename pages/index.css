@@ -13,6 +13,7 @@
 @import url(../blocks/header/__previous-btn/header__previous-btn.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__burger/menu__burger.css);
 @import url(../blocks/menu/__separator/menu__separator.css);
 @import url(../blocks/menu/__navigation/menu__navigation.css);
 @import url(../blocks/menu/__socials/menu__socials.css);

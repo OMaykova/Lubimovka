@@ -6,3 +6,11 @@
   font-size: 16px;
   line-height: 14px;
 }
+
+@media screen and (max-width: 1439px) {
+  .header__previous-btn {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+}

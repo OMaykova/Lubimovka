@@ -7,3 +7,9 @@
   position: fixed;
   top: 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .header {
+    border-bottom: none;
+  }
+}

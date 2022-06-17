@@ -2,5 +2,13 @@
   list-style: none;
   padding: 0;
   display: flex;
-  column-gap: 16px;
+  gap: 16px;
+}
+
+@media screen and (max-width: 1439px) {
+  .socials {
+    flex-direction: column;
+    align-items: start;
+    margin-left: 49px;
+  }
 }

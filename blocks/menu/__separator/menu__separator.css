@@ -5,3 +5,12 @@
   align-self: end;
   margin-top: 11px;
 }
+
+@media screen and (max-width: 1439px) {
+  .menu__separator {
+    height: 1px;
+    width: 100vh;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+  }
+}
