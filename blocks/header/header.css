@@ -4,12 +4,14 @@
   align-items: center;
   box-sizing: border-box;
   border-bottom: 1px solid #242424;
-  position: fixed;
+  position: sticky;
   top: 0;
+  background-color: #e5e5e5;
 }
 
 @media screen and (max-width: 1439px) {
   .header {
     border-bottom: none;
+    width: 100%;
   }
 }

@@ -1,5 +1,5 @@
 .menu__separator {
-  width: 1px;
+  width: .5px;
   background-color: #242424;
   height: 50px;
   align-self: end;
@@ -8,9 +8,8 @@
 
 @media screen and (max-width: 1439px) {
   .menu__separator {
-    height: 1px;
-    width: 100vh;
-    /* margin-top: 20px; */
-    /* margin-bottom: 20px; */
+    height: .5px;
+    width: 100vw;
+    margin-top: 0;
   }
 }
