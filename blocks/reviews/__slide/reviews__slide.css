@@ -8,10 +8,11 @@
   flex-direction: column;
   justify-content: space-between;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .reviews__slide {
     width: 415px;
     min-height: 476px;
+    padding: 72px 30px 30px;
     justify-content: flex-start;
   }
 }

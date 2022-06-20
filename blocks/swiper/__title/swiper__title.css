@@ -8,7 +8,7 @@
   letter-spacing: -0.01em;
   color: #242424;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 520px) {
   .swiper__title {
     font-size: 28px;
     line-height: 32px;

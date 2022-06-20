@@ -19,4 +19,6 @@
 @import url(../blocks/slider-button-next/slider-button-next.css);
 @import url(../blocks/slider-pagination/slider-pagination.css);
 @import url(../blocks/swiper-wrapper/swiper-wrapper.css);
+@import url(../blocks/slider-pagination/_mobile/slider-pagination_mobile.css);
+@import url(../blocks/slider-pagination/_desktop/slider-pagination_desktop.css);
 /* reviews-slider */
