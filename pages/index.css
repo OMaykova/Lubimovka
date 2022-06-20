@@ -49,3 +49,19 @@
 @import url(../blocks/photo/__swiper/photo__swiper.css);
 @import url(../blocks/photo/__swiper-slide/photo__swiper-slide.css);
 @import url(../blocks/photo/__title/photo__title.css);
+
+/* reviews-slider */
+@import url(../blocks/reviews/reviews.css);
+@import url(../blocks/reviews/__author/reviews__author.css);
+@import url(../blocks/reviews/__slide/reviews__slide.css);
+@import url(../blocks/reviews/__text/reviews__text.css);
+@import url(../blocks/swiper/__header/swiper__header.css);
+@import url(../blocks/swiper/__nav/swiper__nav.css);
+@import url(../blocks/swiper/__title/swiper__title.css);
+@import url(../blocks/swiper-pagination-bullet/swiper-pagination-bullet.css);
+@import url(../blocks/reviews-slider/reviews-slider.css);
+@import url(../blocks/slider-button-prev/slider-button-prev.css);
+@import url(../blocks/slider-button-next/slider-button-next.css);
+@import url(../blocks/slider-pagination/slider-pagination.css);
+@import url(../blocks/swiper-wrapper/swiper-wrapper.css);
+/* reviews-slider */
