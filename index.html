@@ -12,10 +12,6 @@
     />
     <!--Swiper-->
     <link rel="stylesheet" href="./pages/index.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
     <title>Любимовка</title>
   </head>
 
@@ -193,6 +189,41 @@
         <template class="photo-template">
           <img src="" class="photo__swiper-slide swiper-slide" alt="" />
         </template>
+      </section>
+
+      <section class="news-reviews">
+        <div class="swiper__header">
+          <h2 class="swiper__title">Рецензии</h2>
+          <div class="swiper__nav">
+            <div class="news-reviews-slider-pagination slider-pagination"></div>
+            <div class="news-reviews-slider-button-prev slider-button-prev"></div>
+            <div class="news-reviews-slider-button-next slider-button-next"></div>
+          </div>
+        </div>
+        <div class="swiper news-reviews-slider">
+          <ul class="swiper-wrapper">
+            <li class="news-reviews__slide swiper-slide">
+              <img class="news-reviews-image" src="./images/TheNewYorkTimes.svg" alt="The New York Times"/>
+              <p class="reviews__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
+              <a class="reviews__button-link" href="#">
+                <div class="reviews__button">
+                  <div class="reviews__button-arrow"></div>
+                  <span class="reviews__button-text">Читать полностью</span>
+                </div>
+              </a>
+            </li>
+            <li class="news-reviews__slide swiper-slide">
+              <img class="news-reviews-image" src="./images/Собака.svg" alt="Собака"/>
+              <p class="reviews__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. </p>
+              <a class="reviews__button-link" href="#">
+                <div class="reviews__button">
+                  <div class="reviews__button-arrow"></div>
+                  <span class="reviews__button-text">Читать полностью</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="reviews">

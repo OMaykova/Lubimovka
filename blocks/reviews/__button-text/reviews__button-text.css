@@ -1,0 +1,9 @@
+.reviews__button-text {
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 14px;
+  text-transform: uppercase;
+  padding-left: 9px;
+}

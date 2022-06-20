@@ -17,7 +17,7 @@ initialPhotos.forEach((el) => {
 
 
 // =======feat/slider-reviews
-const swiper = new Swiper('.swiper', {
+const swiperReviews = new Swiper('.swiper', {
   loop: true,
   slidesPerView: 3,
 
@@ -50,3 +50,36 @@ const swiper = new Swiper('.swiper', {
   },
 });
 // >>>>>>> feat/slider-reviews
+const swiperNewsReviews = new Swiper('.swiper', {
+  loop: true,
+  slidesPerView: 2,
+  centeredSlides: true,
+
+  pagination: {
+    el: '.news-reviews-slider-pagination',
+    clickable: true,
+  },
+
+  navigation: {
+    nextEl: '.news-reviews-slider-button-next',
+    prevEl: '.news-reviews-slider-button-prev',
+  },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: true,
+  },
+
+  watchOverflow: true,
+  spaceBetween: 30,
+  breakpoints: {
+    320: {
+      slidesPerView: 1
+    },
+    768: {
+      slidesPerView: 2
+    },
+    1440: {
+      slidesPerView: 3
+    }
+  },
+});

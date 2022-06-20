@@ -49,7 +49,6 @@
 @import url(../blocks/photo/__swiper/photo__swiper.css);
 @import url(../blocks/photo/__swiper-slide/photo__swiper-slide.css);
 @import url(../blocks/photo/__title/photo__title.css);
-
 /* reviews-slider */
 @import url(../blocks/reviews/reviews.css);
 @import url(../blocks/reviews/__author/reviews__author.css);
@@ -65,3 +64,14 @@
 @import url(../blocks/slider-pagination/slider-pagination.css);
 @import url(../blocks/swiper-wrapper/swiper-wrapper.css);
 /* reviews-slider */
+/* news-reviews */
+@import url(../blocks/news-reviews-image/news-reviews-image.css);
+@import url(../blocks/news-reviews-slider/news-reviews-slider.css);
+@import url(../blocks/news-reviews/news-reviews.css);
+@import url(../blocks/reviews/__button-link/reviews__button-link.css);
+@import url(../blocks/reviews/__slide/reviews__slide.css);
+@import url(../blocks/reviews/__button-text/reviews__button-text.css);
+@import url(../blocks/reviews/__button-arrow/reviews__button-arrow.css);
+@import url(../blocks/reviews/__button/reviews__button.css);
+
+/* news-reviews */
