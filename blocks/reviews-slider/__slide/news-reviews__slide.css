@@ -1,0 +1,17 @@
+.news-reviews__slide {
+  box-sizing: border-box;
+  width: 718px;
+  min-height: 782px;
+  background-color: #FFFFFF;
+  padding: 55px 88px 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 520px) {
+    .news-reviews__slide {
+      width: 100%;
+      min-height: auto;
+      padding: 77px 26px 72px;
+    }
+}

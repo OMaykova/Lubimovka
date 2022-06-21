@@ -1,0 +1,18 @@
+.reviews__slide {
+  box-sizing: border-box;
+  width: 420px;
+  min-height: 361px;
+  background-color: #FFFFFF !important;
+  padding: 30px 33px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 520px) {
+  .reviews__slide {
+    width: 415px;
+    min-height: 476px;
+    padding: 72px 30px 30px;
+    justify-content: flex-start;
+  }
+}

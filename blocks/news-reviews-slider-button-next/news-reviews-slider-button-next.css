@@ -1,0 +1,21 @@
+.news-reviews-slider-button-next {
+  width: 60px;
+  height: 50px;
+  border-radius: 0px 50px 50px 0px;
+  border-top: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  border-right: 1px solid #242424;
+  position: relative;
+  margin-left: 71px;
+}
+.news-reviews-slider-button-next::after {
+  content: url(../../images/arrow-right.svg);
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+@media screen and (max-width: 540px) {
+  .news-reviews-slider-button-next {
+    width: 30px;
+  }
+}

@@ -1,0 +1,20 @@
+.news-reviews-slider-button-prev {
+  width: 60px;
+  height: 50px;
+  border-top: 1px solid #242424;
+  border-left: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  border-radius: 50px 0px 0px 50px;
+  position: relative;
+}
+.news-reviews-slider-button-prev::after {
+  content: url(../../images/arrow-left.svg);
+  position: absolute;
+  top: 12px;
+  left: 10px;
+}
+@media screen and (max-width: 540px) {
+  .news-reviews-slider-button-prev {
+    width: 30px;
+  }
+}

@@ -1,0 +1,9 @@
+.reviews {
+  margin: 116px 60px 64px;
+}
+@media screen and (max-width: 420px) {
+  .reviews {
+    margin: 78px 0px 0px;
+    position: relative;
+  }
+}

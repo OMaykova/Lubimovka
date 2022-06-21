@@ -1,0 +1,9 @@
+.news-reviews {
+  margin: 150px 0px 0px;
+}
+@media screen and (max-width: 420px) {
+  .news-reviews {
+    margin: 105px 0px 0px;
+    position: relative;
+  }
+}

@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
+    <!--Swiper-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <link
       rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
+    <!--Swiper-->
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Любимовка</title>
   </head>
 
@@ -20,7 +23,6 @@
           Пьеса о&nbsp;демоническом обаянии студентки ПТУ и&nbsp;ее&nbsp;роковой
           роли в жизни преподавателя философии.
         </h7>
-
         <div class="performance__tickets">
           <h6 class="headline headline_level_6 performance__tickets-date">
             12 мая 20:00
@@ -32,7 +34,6 @@
             >Билеты</a
           >
         </div>
-
         <img
           class="performance__image"
           src="./images/the_girl_in_black.jpg"
@@ -59,7 +60,6 @@
               </h6>
             </li>
           </ul>
-
           <ul class="performance__participants">
             <li class="performance__participants-item">
               <span class="text text_size_small">Драматург</span>
@@ -190,6 +190,85 @@
           <img src="" class="photo__swiper-slide swiper-slide" alt="" />
         </template>
       </section>
+
+      <section class="news-reviews">
+        <div class="swiper__header">
+          <h2 class="swiper__title">Рецензии</h2>
+          <div class="swiper__nav">
+            <div class="news-reviews-slider-pagination"></div>
+            <div class="news-reviews-slider-button-prev"></div>
+            <div class="news-reviews-slider-button-next"></div>
+          </div>
+        </div>
+        <div class="swiper news-reviews-swiper news-reviews-slider">
+          <ul class="swiper-wrapper ">
+            <li class="news-reviews__slide swiper-slide">
+              <img class="news-reviews-image" src="./images/TheNewYorkTimes.svg" alt="The New York Times"/>
+              <p class="reviews__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. По мере накала страстей окружающие начинают подозревать, что рука одержима самим дьяволом, и пастор Грег предлагает прибегнуть к экзорцизму. Однако «Длань Господня» — это не ужастик, по крайней мере, природа зла тут вовсе не сверхъестественная. Чёрная комедия Аскинса о разделённой надвое душе человека ненавязчиво обнажает глубинные импульсы — сексуальные, саморазрушительные, агрессивные — которые притаились в каждом из нас».</p>
+              <a class="reviews__button-link" href="#">
+                <div class="reviews__button">
+                  <div class="reviews__button-arrow"></div>
+                  <span class="reviews__button-text">Читать полностью</span>
+                </div>
+              </a>
+            </li>
+            <li class="news-reviews__slide swiper-slide">
+              <img class="news-reviews-image" src="./images/Собака.svg" alt="Собака"/>
+              <p class="reviews__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. </p>
+              <a class="reviews__button-link" href="#">
+                <div class="reviews__button">
+                  <div class="reviews__button-arrow"></div>
+                  <span class="reviews__button-text">Читать полностью</span>
+                </div>
+              </a>
+            </li>
+            <li class="news-reviews__slide swiper-slide">
+              <img class="news-reviews-image" src="./images/Собака.svg" alt="Собака"/>
+              <p class="reviews__text">«Действие пьесы «Длань Господня» разворачивается в подвале провинциальной церкви в Техасе, где мать главного героя с группой добровольцев готовит кукольное представление. Ей отчаянно нужна эта работа, её муж недавно умер, оставив её с сыном-подростком в эмоциональной и финансовой яме. И вот жуткая тварь захватывает контроль над левой рукой её беспокойного Джейсона и принимается терроризировать его и всех вокруг. </p>
+              <a class="reviews__button-link" href="#">
+                <div class="reviews__button">
+                  <div class="reviews__button-arrow"></div>
+                  <span class="reviews__button-text">Читать полностью</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="reviews">
+        <div class="swiper__header">
+          <h2 class="swiper__title">Отзывы зрителей</h2>
+          <div class="swiper__nav">
+            <div class="slider-pagination"></div>
+            <div class="slider-button-prev"></div>
+            <div class="slider-button-next"></div>
+          </div>
+        </div>
+        <div class="swiper reviews-swiper reviews-slider">
+          <ul class="swiper-wrapper">
+            <li class="reviews__slide swiper-slide">
+              <p class="reviews__text">Что-то похожее на эффект от мультфильмов типа «Сауз Парк» или про коня Боджэка возникает — я думаю, и пьеса написана с этой интонацией американских взрослых мультсериалов.
+                И как хорошо все это с куклой-носочком. Так все чисто сделано!</p>
+              <p class="reviews__author">Наталья Зайцева</p>
+            </li>
+            <li class="reviews__slide swiper-slide">
+              <p class="reviews__text">Для самой этой истории формат читки работает отличным ироническим отстранением</p>
+              <p class="reviews__author">Дина Годер</p>
+            </li>
+            <li class="reviews__slide swiper-slide">
+              <p class="reviews__text">Мне данный формат дал возможность самой выбирать, как двигается персонаж, что на нем надето, какую машину он водит, и что за плакат висит в подвале церкви. Это было приятно,
+                ведь я как будто сама поучаствовала в спектакле</p>
+              <p class="reviews__author">Дарья Морозова</p>
+            </li>
+            <li class="reviews__slide swiper-slide">
+              <p class="reviews__text">************** ***************** ********* ** ************ **** **** *******</p>
+              <p class="reviews__author">****** ****</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
     </main>
     <script type="module" src="./scripts/index.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
