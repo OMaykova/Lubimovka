@@ -17,7 +17,7 @@ initialPhotos.forEach((el) => {
 
 
 // =======feat/slider-reviews
-const swiperReviews = new Swiper('.swiper', {
+const swiperReviews = new Swiper('.reviews-swiper', {
   loop: true,
   slidesPerView: 3,
 
@@ -50,9 +50,8 @@ const swiperReviews = new Swiper('.swiper', {
   },
 });
 // >>>>>>> feat/slider-reviews
-const swiperNewsReviews = new Swiper('.swiper', {
-  loop: true,
-  slidesPerView: 2,
+const swiperNewsReviews = new Swiper('.news-reviews-swiper', {
+  slidesPerView: 1,
   centeredSlides: true,
 
   pagination: {
@@ -83,3 +82,25 @@ const swiperNewsReviews = new Swiper('.swiper', {
     }
   },
 });
+let container = document.querySelector(".news-reviews-swiper");
+let slides = container.querySelectorAll("li");
+let count = 0;
+slides[count + 1].classList.add("slide-opacity");
+document.querySelector(".news-reviews").querySelector('.news-reviews-slider-button-next').addEventListener('click', () => {
+  count +=1;
+  slides[count].classList.remove("slide-opacity");
+  slides[count - 1].classList.add("slide-opacity");
+  if(count <= slides.length) {
+    slides[count + 1].classList.add("slide-opacity");
+  }
+})
+document.querySelector(".news-reviews").querySelector('.news-reviews-slider-button-prev').addEventListener('click', () => {
+  count -=1;
+  slides[count].classList.remove("slide-opacity");
+  slides[count + 1].classList.add("slide-opacity");
+  slides[count - 1].classList.add("slide-opacity");
+  if(count = 1) {
+    slides[count].classList.remove("slide-opacity");
+    slides[count + 1].classList.add("slide-opacity");
+  }
+})

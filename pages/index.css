@@ -73,5 +73,9 @@
 @import url(../blocks/reviews/__button-text/reviews__button-text.css);
 @import url(../blocks/reviews/__button-arrow/reviews__button-arrow.css);
 @import url(../blocks/reviews/__button/reviews__button.css);
+@import url(../blocks/news-reviews/__slide/news-reviews__slide.css);
+@import url(../blocks/news-reviews-slider-button-prev/news-reviews-slider-button-prev.css);
+@import url(../blocks/news-reviews-slider-button-next/news-reviews-slider-button-next.css);
 
+@import url(../blocks/slide-opacity/slide-opacity.css);
 /* news-reviews */

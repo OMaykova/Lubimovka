@@ -2,7 +2,7 @@
   box-sizing: border-box;
   width: 420px;
   min-height: 361px;
-  background-color: #FFFFFF;
+  background-color: #FFFFFF !important;
   padding: 30px 33px;
   display: flex;
   flex-direction: column;
