@@ -1,0 +1,7 @@
+.performance__participants-item {
+  margin-bottom: 24px;
+}
+
+.performance__participants-item:last-of-type {
+  margin-bottom: 0;
+}

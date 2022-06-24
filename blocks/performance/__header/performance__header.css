@@ -1,0 +1,31 @@
+.performance__header {
+  padding: 8% 8% 5% 17%;
+  max-width: 540px;
+  grid-area: header;
+}
+
+@media (max-width: 1200px) {
+  .performance__header {
+    font-size: 64px;
+    line-height: 1;
+  }
+}
+
+@media (max-width: 992px) {
+  .performance__header {
+    padding: 13% 6% 0;
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 768px) {
+  .performance__header {
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 576px) {
+  .performance__header {
+    font-size: 40px;
+  }
+}

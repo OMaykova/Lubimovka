@@ -1,9 +1,39 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+
 @import url(../blocks/body/body.css);
 @import url(../blocks/body/__page/body__page.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/card/card.css);
+
+@import url(../blocks/headline/headline.css);
+@import url(../blocks/headline/_level/headline_level_1.css);
+@import url(../blocks/headline/_level/headline_level_6.css);
+@import url(../blocks/headline/_level/headline_level_7.css);
+
+@import url(../blocks/text/text.css);
+@import url(../blocks/text/_size/text_size_small.css);
+@import url(../blocks/text/_size/text_size_large.css);
+
+@import url(../blocks/performance/performance.css);
+@import url(../blocks/performance/__header/performance__header.css);
+@import url(../blocks/performance/__description/performance__description.css);
+@import url(../blocks/performance/__tickets/performance__tickets.css);
+@import url(../blocks/performance/__tickets-date/performance__tickets-date.css);
+@import url(../blocks/performance/__tickets-btn/performance__tickets-btn.css);
+@import url(../blocks/performance/__image/performance__image.css);
+@import url(../blocks/performance/__history/performance__history.css);
+@import url(../blocks/performance/__info/performance__info.css);
+@import url(../blocks/performance/__details/performance__details.css);
+@import url(../blocks/performance/__details-item/performance__details-item.css);
+@import url(../blocks/performance/__participants/performance__participants.css);
+@import url(../blocks/performance/__participants-item/performance__participants-item.css);
+@import url(../blocks/performance/__participant/performance__participant.css);
+@import url(../blocks/performance/__video-container/performance__video-container.css);
+@import url(../blocks/performance/__video/performance__video.css);
+@import url(../blocks/performance/__about/performance__about.css);
+@import url(../blocks/performance/__paragraph/performance__paragraph.css);
+@import url(../blocks/performance/__card/performance__card.css);
+
 @import url(../blocks/card/__author-name/card__author-name.css);
 @import url(../blocks/card/__button/card__button.css);
 @import url(../blocks/card/__button/_download/card__button_download.css);
@@ -15,7 +45,7 @@
 @import url(../blocks/card/__author/card__author.css);
 @import url(../blocks/card/__location/card__location.css);
 @import url(../blocks/card/__text/card__text.css);
+
 @import url(../blocks/photo/__swiper/photo__swiper.css);
 @import url(../blocks/photo/__swiper-slide/photo__swiper-slide.css);
 @import url(../blocks/photo/__title/photo__title.css);
-

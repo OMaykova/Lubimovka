@@ -1,0 +1,22 @@
+.performance__details-item {
+  padding-right: 32px;
+  position: relative;
+}
+
+.performance__details-item:last-of-type {
+  padding-right: 0;
+}
+
+.performance__details-item::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 16px;
+  width: 1px;
+  height: 100%;
+  background-color: #242424;
+}
+
+.performance__details-item:last-of-type::after {
+  width: 0;
+}
