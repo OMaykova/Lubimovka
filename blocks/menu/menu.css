@@ -1,7 +1,9 @@
 .menu {
   display: flex;
   align-items: center;
-  background-color: #e5e5e5;
+  /* overflow: hidden; */
+  box-sizing: border-box;
+  background-color: var(--background-color);
 }
 
 @media screen and (max-width: 1439px) {

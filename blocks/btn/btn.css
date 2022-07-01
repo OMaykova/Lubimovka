@@ -5,21 +5,21 @@
   text-decoration: none;
   padding: 9px 0 9px 10px;
   color: #242424;
-  background-color: #e5e5e5;
+  background-color: var(--background-color);
   position: relative;
   border-right: 1px solid #242424;
   border-bottom: 1px solid #242424;
 
   background-image: linear-gradient(#242424, #242424);
-  background-position: 100% 50%;
+  background-position: -150% 50%;
   background-repeat: no-repeat;
   background-size: 0% 100%;
-  transition: background-size .4s, color .4s;
+  transition: background-size .4s ease-in-out, color .3s;
 }
 
 .btn:hover {
   background-size: 100% 100%;
-  color: #e5e5e5;
+  color: var(--background-color);
   z-index: 1;
 }
 
@@ -32,7 +32,7 @@
   -webkit-mask-image: url(../../../images/arrow.svg);
   mask-image: url(../../../images/arrow.svg);
   background-color: #242424;
-  transition: background-color .4s;
+  transition: background-color .3s;
 }
 
 .btn::before {
@@ -41,9 +41,9 @@
   inset: 0;
   z-index: -1;
   background-color: #242424;
-  transform-origin: right;
+  transform-origin: left;
   transform: scaleX(0);
-  transition: transform .4s, box-shadow .2s;
+  transition: transform .3s, box-shadow .2s;
 }
 
 .btn:hover::before {
@@ -51,7 +51,7 @@
 }
 
 .btn:hover::after {
-  background-color: #e5e5e5;
+  background-color: var(--background-color);
 }
 
 .btn:active::before {

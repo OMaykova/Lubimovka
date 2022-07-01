@@ -6,7 +6,8 @@
   border-bottom: 1px solid #242424;
   position: sticky;
   top: 0;
-  background-color: #e5e5e5;
+  background-color: var(--background-color);
+  z-index: 9999;
 }
 
 @media screen and (max-width: 1439px) {

@@ -3,9 +3,13 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
-  padding: 3px 10px 3px 0;
+  padding: 3px 6px 3px 0;
   flex-direction: row-reverse;
-  background-position: -150% 50%;
+
+  font-family: 'Formular';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .support::after {
@@ -14,10 +18,6 @@
   height: 25px;
   -webkit-mask-image: url(../../../images/plus.svg);
   mask-image: url(../../../images/plus.svg);
-}
-
-.support::before {
-  transform-origin: left;
 }
 
 @media screen and (max-width: 1439px) {
